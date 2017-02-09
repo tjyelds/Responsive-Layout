@@ -265,6 +265,10 @@ footer {
 		display: inline-block;
 	}
 	
+	.nav a:hover {
+		background-color: transparent;
+	}
+	
 	.nav-clear {
 		content: "";
 		display: table;
