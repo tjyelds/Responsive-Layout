@@ -1,0 +1,17 @@
+.skills {
+	background-color: $white;
+	padding: 3em 5%;
+}
+
+ul.skill-list {
+  padding: 0;
+  @extend %center-text;
+	
+	li {
+	  display: inline-block;
+	  background: $blue;
+	  color: $white;
+	  padding: 10px 20px;
+	  margin: 5px;
+	}
+}

@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	@include text(1em, 1.5, normal, $stack-open-sans, $grey);
+	background-color: $alabaster;
+}
+
+img {
+	max-width: 100%;
+}
+
+.container {
+	width: 90%;
+	@extend %m-auto;
+	@extend %center-text;
+}
+
+.wrapper {
+	width: 100%;
+	@extend %m-auto;
+	@extend %center-text;
+	
+	@media #{$brk-lrg} {
+		width: 90%;
+	}
+}
+
+ul {
+	@include list(0, 0, none);
+}
+
+.clearfix {
+	content: "";
+	display: table;
+	clear: both;
+}

@@ -1,0 +1,13 @@
+@mixin text($size, $l-height, $weight, $font-family, $color) {
+	font-size: $size;
+	line-height: $l-height;
+	font-weight: $weight;
+	font-family: $font-family;
+	color: $color;
+}
+
+@mixin list($margin, $padding, $style) {
+	margin: $margin;
+	padding: $padding;
+	list-style: $style;
+}

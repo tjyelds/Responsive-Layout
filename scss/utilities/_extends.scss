@@ -1,0 +1,29 @@
+%t-border {
+  border-top: 1px solid $mercury;
+}
+
+%bold-font {
+	font-weight: bold;
+}
+
+%upper-font {
+	text-transform: uppercase;
+}
+
+%center-text {
+	text-align: center;
+}
+
+%m-auto {
+	margin: 0 auto;
+}
+
+%clearfix {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+%m-bottom {
+	margin-bottom: 3em;
+}

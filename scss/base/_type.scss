@@ -1,0 +1,59 @@
+h1, h2 {
+	color: $tundora;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	margin: 1em 0;
+}
+
+p {
+	margin: 1em 0;
+	line-height: 1.5em;
+}
+
+.blue-text {
+	color: $blue;
+	@extend %bold-font;
+}
+
+// Links
+
+a {
+	text-decoration: none;
+	
+	&:link,
+	&:visited {
+		color: $tundora;
+	}
+	&:hover {
+		color: $blue;
+	}
+}
+
+// Custom type
+
+.intro {
+	@media #{$brk-sml} {
+		float: left;
+		width: 60%;
+		margin: 0;
+		padding-right: 2em;
+		text-align: left;
+	}
+	
+	@media #{$brk-lrg} {
+		font-size: 1.3em;
+	}
+}
+
+.name {
+	@media #{$brk-lrg} {
+		float: left;
+		padding: 0.3em 0;
+	}
+}

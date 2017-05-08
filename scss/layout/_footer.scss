@@ -1,0 +1,44 @@
+footer {
+	background-color: $alabaster;
+	padding: 3em 0;
+}
+
+.bottom-footer {
+	@extend %t-border;
+	padding: 2em 0;
+	margin-top: 4em;
+}
+
+.footer-name {
+	@extend %bold-font;
+	float: left;
+	font-family: $stack-barrio;
+	margin: 0;
+	color: $tundora;
+}
+
+.footer-nav {
+	float: right;
+	
+	& a {
+		display: inline-block;
+		text-transform: uppercase;
+		@extend %bold-font;
+		text-decoration: none;
+	}
+	
+	@media #{$brk-sml} {
+		& .back-top {
+			display: none;
+		}
+		
+		& li {
+			display: inline-block;
+			margin-left: 1em;
+		}
+	}
+}
+
+.footer-links {
+	display: none;
+}
